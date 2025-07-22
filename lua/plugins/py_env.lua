@@ -8,6 +8,14 @@ return {
     "kmontocam/nvim-conda",
   },
 
+  -- uv
+  {
+    "benomahony/uv.nvim",
+    opts = {
+      picker_integration = true,
+    },
+  },
+
   -- venv
   {
     "linux-cultist/venv-selector.nvim",

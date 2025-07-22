@@ -1,8 +1,13 @@
 return {
   {
     "neovim/nvim-lspconfig",
+    dependencies = "williamboman/mason-lspconfig.nvim",
   },
-  { "mason-org/mason-lspconfig.nvim", version = "^1.0.0" },
+  {
+    "mason-org/mason-lspconfig.nvim",
+    dependencies = "williamboman/mason.nvim",
+    version = "^1.0.0",
+  },
   {
     "mason-org/mason.nvim",
     version = "^1.0.0",
@@ -46,7 +51,7 @@ return {
 
         -- docker
         "docker-compose-language-service",
-        "dockerfile-language-service",
+        "dockerfile-language-server",
 
         -- json
         "json-lsp",
