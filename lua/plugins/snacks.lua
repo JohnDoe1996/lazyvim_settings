@@ -35,5 +35,9 @@ return {
     },
     { "<leader>e", "<leader>fe", desc = "Explorer Snacks (root dir)", remap = true },
     { "<leader>E", "<leader>fE", desc = "Explorer Snacks (cwd)", remap = true },
+    --
+    -- -- leader + s + f/F  查找 不查找隐藏文件
+    { "<leader>sf", LazyVim.pick("live_grep", { root = true, hidden = false, ignored = false }), desc = "Grep (root without hidden)" },
+    { "<leader>sF", LazyVim.pick("live_grep", { root = false, hidden = false, ignored = false }), desc = "Grep (cwd without hidden)" },
   },
 }

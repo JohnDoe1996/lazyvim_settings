@@ -10,6 +10,8 @@ vim.g.autoformat = false
 -- 行长度参考线
 vim.wo.colorcolumn = "80,100,120"
 
+vim.g.root_spec = {"cwd"}
+
 opt.mouse = "a" -- ""不启用  "a"启用 鼠标支持
 opt.clipboard = "" -- "unnamedplus" -- ""不使用 "unnamedplus"使用 系统粘贴板
 -- [设置+*寄存器内容和系统粘贴板打通]

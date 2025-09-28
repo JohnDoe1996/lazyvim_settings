@@ -31,3 +31,5 @@ vim.keymap.set("v", "<D-S-v>", '"+p', { noremap = true, silent = true })
 --  vim.keymap.set("i", "<D-S-CR>", "<Esc>O", { noremap = true, silent = true })
 --  vim.keymap.set("i", "<D-S-CR>", "<Esc>O", { noremap = true, silent = true })
 
+    -- 改变查找 不查找隐藏文件
+-- vim.keymap.set("n", "<leader>sg", LazyVim.pick("live_grep"), desc = "Grep (Root Dir)" },

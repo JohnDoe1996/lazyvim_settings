@@ -1,18 +1,16 @@
 return {
   {
-    "neovim/nvim-lspconfig",
-    dependencies = "williamboman/mason-lspconfig.nvim",
-  },
-  {
     "mason-org/mason-lspconfig.nvim",
-    dependencies = "williamboman/mason.nvim",
-    version = "^1.0.0",
+    dependencies = "mason-org/mason.nvim",
+    -- version = "^1.0.0",
   },
   {
     "mason-org/mason.nvim",
-    version = "^1.0.0",
+    -- version = "^1.0.0",
     opts = {
       ensure_installed = {
+        -- Tips:  卸载是用大写X 不是小写x
+                --
         -- pyrhon
         "pyright",
         "flake8",

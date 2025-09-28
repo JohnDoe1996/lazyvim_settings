@@ -87,9 +87,15 @@ return {
           -- 隐藏特定名称的 文件/文件名， 显示隐藏文件模式下会显示
           hide_by_name = {
             ".DS_Store",
-            ".venv",
+
             ".vscode",
             ".iead",
+
+            -- python
+            ".venv",
+            "venv",
+            "__pycache__",
+            ".pytest_cache"
           },
           -- 不显示的文件（ 即使显示隐藏文件模式下也不显示
           never_show = {
