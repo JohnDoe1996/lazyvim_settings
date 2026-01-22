@@ -27,4 +27,15 @@ return {
       },
     },
   },
+
+  --  代码补全这只
+  -- {
+  --   "saghen/blink.cmp",
+  --   optional = true,
+  --   enabled = true,
+  --   opts = function(_, opts)
+  --       return opts
+  --   end,
+  -- },
+
 }
